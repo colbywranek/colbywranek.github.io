@@ -1,49 +1,80 @@
-/* Reset and Global Styles */
-* {
+/* Reset and global styles */
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-    padding: 0 20px;
+/* Header styles */
+#landing {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-/* Typography */
-h1, h2, h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #0077b6; /* Architectural blue accent */
-}
-
-p {
-    max-width: 600px;
+.landing-content {
+    max-width: 800px;
     margin: 0 auto;
 }
 
-/* Layout */
-section {
-    padding: 60px 0;
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vertical-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.vertical-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Activities section styles */
+#activities {
+    padding: 50px 0;
+    background-color: #f2f2f2;
     text-align: center;
 }
 
+#activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#activities ul li {
+    margin-bottom: 10px;
+}
+
+/* Additional section styles */
+#additional {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
+    text-align: center;
     padding: 20px 0;
-    font-size: 0.9rem;
 }

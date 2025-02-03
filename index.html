@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colby Wranek</title>
-    <link rel="icon" type="image/x-icon" href="./">
+    <link rel="icon" type="image/x-icon" href="./media/pageIcon.ico">
     <link rel="stylesheet" href="./globalStyles.css">
     <link rel="stylesheet" href="./indexStyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -17,35 +17,50 @@
             <h3>Aspiring Artist</h3>
             <!-- Social media icons -->
             <div class="social-icons">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="LinkedInUrlHere"><i class="fab fa-linkedin"></i></a>
+                <a href="instagramUrlHere"><i class="fab fa-instagram"></i></a>
                 <a href="mailto:colby@example.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio section -->
+    <!-- About-Me section -->
+    <section id="About-Me">
+        <div class="horizontal-container">
+            <div class="vertical-container">
+                <h2>About Colby Wranek</h2>
+                <p>Placeholder text about Colby's journey as an aspiring artist.</p> 
+                <a href="./ColbyWranekResume.pdf"><p>Resume</p></a>
+            </div>
+            <div class="vertical-container">
+                <img src="./media/headshot.jpg" alt="Headshot">
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <!-- Portfolio section, make them cards -->
     <section id="portfolio">
         <div class="horizontal-container">
             <div class="vertical-container">
-                <img src="portfolio-image2.jpg" alt="Nature Photo">
-                <a href="./"><h2>Inspiration</h2></a>
+                <img src="NaturePhoto.jpg" alt="Nature Photo">
+                <a href="#"><h2>Inspiration</h2></a>
                 <p>photo description</p>
             </div>
             <div class="vertical-container">
-                <img src="portfolio-image1.jpg" alt="Class Project">
-                <a href="./"><h2>Class Projects</h2></a>
+                <img src="ClassProject.jpg" alt="Class Project">
+                <a href="#"><h2>Class Projects</h2></a>
                 <p>Class proj desc</p>
             </div>
             <div class="vertical-container">
-                <img src="portfolio-image3.jpg" alt="Minecraft Screenshot">
-                <a href="./"><h2>Minecraft</h2></a>
+                <img src="MinecraftImage.jpg" alt="Minecraft Screenshot">
+                <a href="#"><h2>Minecraft</h2></a>
                 <p>minecraft description</p>
             </div>
         </div>
     </section>
-
-    <!-- Activity section -->
+    <hr>
+    <!-- Activity section: to be finished, make the activities cards -->
     <section id="activities">
         <h2>Recent Activities</h2>
         <ul>
@@ -54,17 +69,9 @@
             <li>Workshop on Modern Art Techniques</li>
         </ul>
     </section>
-
-    <!-- Additional section -->
-    <section id="additional">
-        <h2>About Colby Wranek</h2>
-        <p>Placeholder text about Colby's journey as an aspiring artist.</p> 
-        <a href="./"><p>Resume</p></a>
-    </section>
-
     <!-- Footer -->
     <footer>
-        <p>&copy; Colby Wranek | colby@email.com</p>
+        <p>&copy; Colby Wranek. All rights reserved.</p>
     </footer>
 </body>
 </html>
